@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Rayam Career & Digital Resources provides professional CV services, career guides, interview resources and digital templates.">
+<title>Rayam Career & Digital Resources</title>
+
+<style>
+:root{
+--green:#123f2a;
+--gold:#c9a227;
+--light:#f7f6f0;
+--dark:#17231c;
+}
+
+*{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+body{
+margin:0;
+font-family:Arial,sans-serif;
+color:var(--dark);
+background:#fff;
+line-height:1.6;
+}
+
+header{
+background:var(--green);
+color:#fff;
+padding:18px 7%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:20px;
+position:sticky;
+top:0;
+z-index:5;
+}
+
+.logo{
+font-size:1.15rem;
+font-weight:700;
+}
+
+.logo span{
+color:var(--gold);
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:18px;
+font-size:.95rem;
+}
+
+.hero{
+background:var(--light);
+padding:80px 7%;
+display:grid;
+grid-template-columns:1.3fr .7fr;
+gap:45px;
+align-items:center;
+}
+
+h1{
+font-size:clamp(2.2rem,5vw,4rem);
+line-height:1.08;
+margin:0 0 20px;
+color:var(--green);
+}
+
+h2{
+color:var(--green);
+font-size:2rem;
+}
+
+.hero p{
+font-size:1.15rem;
+max-width:650px;
+}
+
+.btn{
+display:inline-block;
+background:var(--gold);
+color:#142016;
+text-decoration:none;
+padding:13px 20px;
+border-radius:7px;
+font-weight:700;
+margin:7px 8px 7px 0;
+}
+
+.btn.secondary{
+background:var(--green);
+color:#fff;
+}
+
+.card-wrap{
+background:var(--green);
+color:#fff;
+border-radius:18px;
+padding:30px;
+box-shadow:0 12px 35px #0002;
+}
+
+section{
+padding:65px 7%;
+}
+
+.center{
+text-align:center;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:22px;
+}
+
+.card{
+padding:25px;
+border:1px solid #e4e4df;
+border-radius:12px;
+background:#fff;
+}
+
+.card h3{
+color:var(--green);
+}
+
+.price{
+font-size:1.5rem;
+font-weight:700;
+color:var(--green);
+margin:12px 0;
+}
+
+.badge{
+display:inline-block;
+background:#eee7c9;
+padding:5px 10px;
+border-radius:30px;
+font-size:.8rem;
+}
+
+.contact{
+background:var(--light);
+}
+
+.contact-box{
+max-width:700px;
+margin:auto;
+background:#fff;
+padding:30px;
+border-radius:15px;
+}
+
+.contact-item{
+margin:12px 0;
+font-size:1.05rem;
+}
+
+footer{
+background:#102d1f;
+color:#fff;
+text-align:center;
+padding:30px 7%;
+}
+
+footer a{
+color:#fff;
+}
+
+.small{
+font-size:.9rem;
+color:#666;
+}
+
+@media(max-width:800px){
+header{
+display:block;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+margin:0 12px 0 0;
+}
+
+.hero{
+grid-template-columns:1fr;
+}
+
+.grid{
+grid-template-columns:1fr;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+Rayam <span>Career & Digital Resources</span>
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#services">CV Services</a>
+<a href="#products">Resources</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<main>
+
+<section class="hero" id="home">
+
+<div>
+
+<span class="badge">
+CVs • Career Guides • Digital Resources
+</span>
+
+<h1>
+Build a CV that helps you stand out.
+</h1>
+
+<p>
+Professional CV support, practical interview resources and easy-to-use digital templates for students, graduates and job seekers.
+</p>
+
+<a class="btn" href="#services">
+Get CV Support
+</a>
+
+<a class="btn secondary" href="#products">
+View Resources
+</a>
+
+</div>
+
+<div class="card-wrap">
+
+<h2 style="color:#fff;margin-top:0">
+Start your career journey
+</h2>
+
+<p>
+Get practical resources designed to make CV writing, job applications and interview preparation easier.
+</p>
+
+<p>
+<strong>Simple. Professional. Practical.</strong>
+</p>
+
+</div>
+
+</section>
+
+
+<section id="services">
+
+<div class="center">
+
+<h2>CV Services & Prices</h2>
+
+<p>
+Choose the support that fits your needs.
+</p>
+
+</div>
+
+
+<div class="grid">
+
+<div class="card">
+
+<h3>CV Writing</h3>
+
+<p>
+A professionally structured CV tailored to your skills, education and career goals.
+</p>
+
+<p class="price">
+$10
+</p>
+
+<a class="btn" href="https://wa.me/256709796730?text=Hello%20Rayam%20Career%2C%20I%20would%20like%20to%20order%20CV%20Writing%20for%20%2410.">
+Order on WhatsApp
+</a>
+
+</div>
+
+
+<div class="card">
+
+<h3>CV Review</h3>
+
+<p>
+Get practical feedback on your current CV, including structure, wording and presentation.
+</p>
+
+<p class="price">
+$5
+</p>
+
+<a class="btn" href="https://wa.me/256709796730?text=Hello%20Rayam%20Career%2C%20I%20would%20like%20to%20order%20a%20CV%20Review%20for%20%245.">
+Request Review
+</a>
+
+</div>
+
+
+<div class="card">
+
+<h3>Interview Preparation</h3>
+
+<p>
+Prepare for common interview questions with clear, practical guidance.
+</p>
+
+<p class="price">
+$7
+</p>
+
+<a class="btn" href="https://wa.me/256709796730?text=Hello%20Rayam%20Career%2C%20I%20would%20like%20Interview%20Preparation%20for%20%247.">
+Book Preparation
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="products" style="background:var(--light)">
+
+<div class="center">
+
+<h2>Digital Career Resources</h2>
+
+<p>
+Downloadable resources you can use at your own pace.
+</p>
+
+</div>
+
+
+<div class="grid">
+
+<div class="card">
+
+<h3>
+CV & Interview Starter Guide
+</h3>
+
+<p>
+Practical guidance for creating a stronger CV and preparing for interviews.
+</p>
+
+<p class="price">
+Coming Soon
+</p>
+
+<a class="btn" href="mailto:Rahmahyaseen8@gmail.com?subject=CV%20%26%20Interview%20Starter%20Guide">
+Enquire by Email
+</a>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Professional CV Template
+</h3>
+
+<p>
+A clean template to help you organize your education, experience and skills.
+</p>
+
+<p class="price">
+Coming Soon
+</p>
+
+<a class="btn" href="mailto:Rahmahyaseen8@gmail.com?subject=Professional%20CV%20Template">
+Enquire by Email
+</a>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Career Checklist
+</h3>
+
+<p>
+A simple checklist for preparing your CV, applications and interviews.
+</p>
+
+<p class="price">
+Free
+</p>
+
+<a class="btn" href="mailto:Rahmahyaseen8@gmail.com?subject=Career%20Checklist">
+Get Resource
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="about">
+
+<div class="center">
+
+<h2>
+About Rayam Career & Digital Resources
+</h2>
+
+<p>
+We provide practical career resources designed to make job applications easier and more professional. Our focus is on clear CVs, useful templates and straightforward interview preparation.
+</p>
+
+</div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+<div class="center">
+
+<h2>
+Contact & Order
+</h2>
+
+<p>
+Ready to improve your CV or get a career resource? Contact Rayam Career & Digital Resources today.
+</p>
+
+</div>
+
+
+<div class="contact-box">
+
+<div class="contact-item">
+
+<strong>Email:</strong>
+
+<a href="mailto:Rahmahyaseen8@gmail.com">
+Rahmahyaseen8@gmail.com
+</a>
+
+</div>
+
+
+<div class="contact-item">
+
+<strong>WhatsApp:</strong>
+
+<a href="https://wa.me/256709796730">
++256 709 796 730
+</a>
+
+</div>
+
+
+<a class="btn" href="mailto:Rahmahyaseen8@gmail.com?subject=Rayam%20Career%20Service%20Enquiry">
+Email Us
+</a>
+
+
+<a class="btn secondary" href="https://wa.me/256709796730?text=Hello%20Rayam%20Career%2C%20I%20would%20like%20to%20ask%20about%20your%20services.">
+Chat on WhatsApp
+</a>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+<p>
+<strong>Rayam Career & Digital Resources</strong>
+</p>
+
+<p>
+<a href="#about">About</a> ·
+<a href="#contact">Contact</a> ·
+Privacy Policy ·
+Terms
+</p>
+
+<p class="small" style="color:#ddd">
+© 2026 Rayam Career & Digital Resources. All rights reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
+Absolutely ❤️ Copy everything below and paste it into the GitHub editor after naming the file index.html.
+HTML
+After you paste it
+Don't worry about understanding the code.
+Just:
+1. Make sure the filename says index.html
+2. Paste the code
+3. Scroll down
+4. Tap Commit changes
+Then your website will be updated with your $10, $5 and $7 prices, email, and WhatsApp buttons.
